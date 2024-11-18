@@ -1,0 +1,11 @@
+@media (min-width: 320px) {
+  .conteudo-width {
+    width: 260px;
+  }
+}
+
+@media (min-width: 440px) {
+  .conteudo-width {
+    width: 500px;
+  }
+}

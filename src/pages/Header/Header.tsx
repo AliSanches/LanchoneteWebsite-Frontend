@@ -9,7 +9,7 @@ import { BtnMenu } from "../Header/BtnMenu";
 
 export const Header = () => {
   return (
-    <nav className="container-fluid bg-light position-fixed shadow-sm align-items-center ">
+    <header className="container-fluid z-5 bg-light position-sticky-top shadow-md align-items-center ">
       <Stack
         direction="horizontal"
         style={{ height: "100px" }}
@@ -23,7 +23,7 @@ export const Header = () => {
             style={{ width: "130px", height: "70px" }}
           />
         </div>
-        <div className="p-2 ms-auto">
+        <nav className="p-2 ms-auto">
           <Nav
             className="me-auto my-2 my-lg-0 d-none d-md-flex "
             style={{ maxHeight: "100px" }}
@@ -43,8 +43,8 @@ export const Header = () => {
             </Nav.Link>
           </Nav>
           <BtnMenu />
-        </div>
+        </nav>
       </Stack>
-    </nav>
+    </header>
   );
 };
