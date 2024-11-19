@@ -9,3 +9,9 @@
     width: 500px;
   }
 }
+
+@media (min-width: 768px) {
+  .conteudo-width {
+    width: 600px !important;
+  }
+}
