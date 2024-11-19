@@ -4,6 +4,13 @@ import Form from "react-bootstrap/Form";
 
 import logo from "/public/Disk.png";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLocationDot,
+  faEnvelope,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
+
 export const SectionSugestao = () => {
   return (
     <div className="container-lg">
@@ -30,10 +37,48 @@ export const SectionSugestao = () => {
             </div>
           </Form>
         </div>
-        <div className="container-fluid justify-content-center bg-body-secondary">
+        <div className="container  bg-body-secondary d-lg-flex flex-lg-column align-items-center">
           <div className="my-5">
             <img src={logo} alt={logo} style={{ width: "240px" }} />
           </div>
+          <div className="d-flex gap-2">
+            <FontAwesomeIcon
+              icon={faLocationDot}
+              size="2xl"
+              style={{ color: "#f82020" }}
+            />
+            <h2 className="fw-bold">ENDEREÇO</h2>
+          </div>
+
+          <div className="text-secondary mb-5 mt-2">
+            R. Morais Barros, 654
+            <br />
+            Centro, Piracicaba – SP
+            <br />
+            CEP 13400-353
+          </div>
+
+          <div className="d-flex gap-2">
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              size="2xl"
+              style={{ color: "#f82020" }}
+            />
+            <h2 className="fw-bold">E-MAIL</h2>
+          </div>
+
+          <div className="text-secondary mb-5 mt-2">kerolanches@gmail.com</div>
+
+          <div className="d-flex gap-2">
+            <FontAwesomeIcon
+              icon={faPhone}
+              size="2xl"
+              style={{ color: "#f82020" }}
+            />
+            <h2 className="fw-bold">TELEFONE</h2>
+          </div>
+
+          <div className="text-secondary mb-5 mt-2">19 3422-0697</div>
         </div>
       </div>
     </div>
