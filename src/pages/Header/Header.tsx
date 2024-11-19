@@ -9,7 +9,7 @@ import { BtnMenu } from "../Header/BtnMenu";
 
 export const Header = () => {
   return (
-    <header className="container-fluid z-5 bg-light position-sticky-top shadow-md align-items-center ">
+    <header className="container-fluid z-5 bg-light sticky-top shadow-md align-items-center ">
       <Stack
         direction="horizontal"
         style={{ height: "100px" }}
