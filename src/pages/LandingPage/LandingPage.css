@@ -6,6 +6,10 @@
   height: 80vh;
 }
 
+.wpp-section-horarios {
+  padding-bottom: 160px;
+}
+
 @media (min-width: 320px) {
   .wpp-section-cardapio {
     height: 100vh;

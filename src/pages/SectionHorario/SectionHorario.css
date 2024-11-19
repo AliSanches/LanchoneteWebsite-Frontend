@@ -1,0 +1,17 @@
+@media (min-width: 320px) {
+  .wpp-horario {
+    width: 260px;
+  }
+}
+
+@media (min-width: 420px) {
+  .wpp-horario {
+    width: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  .wpp-horario {
+    width: 450px;
+  }
+}
