@@ -2,6 +2,7 @@ import { Header } from "../Header/Header";
 import { Main } from "../Main/Main";
 import { SectionCardapio } from "../SectionCardapio/SectionCardapio";
 import { SectionHorario } from "../SectionHorario/SectionHorario";
+import { SectionConhecerCardapio } from "../SectionConhecerCardapio/SectionConhecerCardapio";
 
 import "./LandingPage.css";
 
@@ -17,6 +18,9 @@ export const LandingPage = () => {
       </section>
       <section className="container-fluid wpp-section-horarios">
         <SectionHorario />
+      </section>
+      <section className="container-fluid d-flex justify-content-center align-items-center wpp-section-conhecer-cardapio">
+        <SectionConhecerCardapio />
       </section>
     </>
   );

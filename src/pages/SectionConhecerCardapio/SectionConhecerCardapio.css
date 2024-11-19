@@ -1,0 +1,11 @@
+@media (min-width: 320px) {
+  .titulo-conhecer-card {
+    width: 180px;
+  }
+}
+
+@media (min-width: 500px) {
+  .titulo-conhecer-card {
+    width: auto;
+  }
+}

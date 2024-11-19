@@ -7,17 +7,29 @@
 }
 
 .wpp-section-horarios {
-  padding-bottom: 160px;
+  padding-bottom: 140px;
 }
 
 @media (min-width: 320px) {
   .wpp-section-cardapio {
     height: 100vh;
   }
+
+  .wpp-section-conhecer-cardapio {
+    background: url("/public/Lanche-Grande.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+  }
 }
 
 @media (min-width: 992px) {
   .wpp-section-cardapio {
     height: 60vh;
+  }
+
+  .wpp-section-conhecer-cardapio {
+    height: 80vh;
   }
 }
