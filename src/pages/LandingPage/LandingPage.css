@@ -5,3 +5,15 @@
   background-position: center;
   height: 80vh;
 }
+
+@media (min-width: 320px) {
+  .wpp-section-cardapio {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 992px) {
+  .wpp-section-cardapio {
+    height: 60vh;
+  }
+}

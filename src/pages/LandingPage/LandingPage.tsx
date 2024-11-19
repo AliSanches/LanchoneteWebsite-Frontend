@@ -11,7 +11,7 @@ export const LandingPage = () => {
       <main className="container-fluid wpp-main z-0">
         <Main />
       </main>
-      <section className="container-fluid" style={{ height: "100vh" }}>
+      <section className="container-fluid  wpp-section-cardapio">
         <SectionCardapio />
       </section>
     </>
