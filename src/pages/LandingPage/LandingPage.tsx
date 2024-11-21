@@ -4,6 +4,7 @@ import { SectionCardapio } from "../SectionCardapio/SectionCardapio";
 import { SectionHorario } from "../SectionHorario/SectionHorario";
 import { SectionConhecerCardapio } from "../SectionConhecerCardapio/SectionConhecerCardapio";
 import { SectionSugestao } from "../SectionSugestao/SectionSugestao";
+import { SectionContato } from "../SectionContato/SectionContato";
 
 import "./LandingPage.css";
 
@@ -25,6 +26,9 @@ export const LandingPage = () => {
       </section>
       <section className="container-fluid ">
         <SectionSugestao />
+      </section>
+      <section className="container-fluid ">
+        <SectionContato />
       </section>
     </>
   );
