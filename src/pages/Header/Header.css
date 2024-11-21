@@ -6,3 +6,7 @@
 .nav-linksNav:hover {
   color: red !important;
 }
+
+.header-sombra {
+  box-shadow: 0 -6px 10px 6px rgba(0, 0, 0, 0.5);
+}

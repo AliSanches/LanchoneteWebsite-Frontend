@@ -9,10 +9,10 @@ import { BtnMenu } from "../Header/BtnMenu";
 
 export const Header = () => {
   return (
-    <header className="container-fluid z-5 bg-light sticky-top shadow-md align-items-center ">
+    <header className="container-fluid z-5 bg-light sticky-top align-items-center header-sombra">
       <Stack
         direction="horizontal"
-        style={{ height: "100px" }}
+        style={{ height: "80px" }}
         className="container-lg"
         gap={3}
       >
