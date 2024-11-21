@@ -1,0 +1,8 @@
+.link-nav-sociais {
+  color: white;
+  transition: 0.8s ease-in-out;
+}
+
+.link-nav-sociais:hover {
+  color: rgb(245, 90, 1);
+}

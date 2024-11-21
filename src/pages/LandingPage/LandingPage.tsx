@@ -7,6 +7,7 @@ import { SectionSugestao } from "../SectionSugestao/SectionSugestao";
 import { SectionContato } from "../SectionContato/SectionContato";
 
 import "./LandingPage.css";
+import { Footer } from "../Footer/Footer";
 
 export const LandingPage = () => {
   return (
@@ -29,6 +30,9 @@ export const LandingPage = () => {
       </section>
       <section className="container-fluid ">
         <SectionContato />
+      </section>
+      <section className="container-fluid bg-danger">
+        <Footer />
       </section>
     </>
   );
