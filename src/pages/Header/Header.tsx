@@ -25,7 +25,7 @@ export const Header = () => {
         </div>
         <nav className="p-2 ms-auto">
           <Nav
-            className="me-auto my-2 my-lg-0 d-none d-md-flex "
+            className="me-auto  my-2 my-lg-0 d-none d-md-flex "
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
